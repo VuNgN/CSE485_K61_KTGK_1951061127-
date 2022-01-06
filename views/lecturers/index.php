@@ -4,20 +4,20 @@ require_once 'views/commons/message.php';
 ?>
 
 <a href="index.php?controller=lecturers&action=add">
-    Thêm mới giang vien
+    Thêm mới giảng viên
 </a>
 <table border="1" cellspacing="0" cellpadding="8">
     <tr>
         <th>ID</th>
-        <th>Name</th>
-        <th>Name</th>
-        <th>Name</th>
-        <th>Name</th>
-        <th>Name</th>
-        <th>Name</th>
-        <th>Name</th>
-        <th>Name</th>
-        <th>Name</th>
+        <th>Tên giảng viên</th>
+        <th>Ngày sinh</th>
+        <th>Giới tính</th>
+        <th>Trình độ</th>
+        <th>Chuyên môn</th>
+        <th>Học hàm</th>
+        <th>Học vị</th>
+        <th>Cơ quan</th>
+        <th>Tùy chọn</th>
         <th></th>
     </tr>
     <?php if (!empty($lecturers)): ?>

@@ -3,7 +3,7 @@ require_once 'models/Lecturer.php';
 class LecturersController {
 
     public function index() {
-        echo "<h1>Trang liệt kê giao vien</h1>";
+        echo "<h1>Trang liệt kê giảng viên</h1>";
 
         $lecturer = new Lecturer();
         $lecturers = $lecturer->index();
