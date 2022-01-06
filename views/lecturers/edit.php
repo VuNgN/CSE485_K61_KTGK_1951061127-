@@ -39,7 +39,6 @@
                   <label for="validationDefault02">Giới tính</label>
                   <input    type="text" 
                             name="gioitinh" 
-                            value=""  
                             class="form-control" 
                             id="validationDefault02" 
                             placeholder="Giới tính" 
@@ -47,7 +46,8 @@
                             <?php
                             echo isset($_POST['gioitinh']) ? $_POST['gioitinh'] : $lecturer['gioitinh']
                             ?>
-                            " required>
+                            " 
+                            required>
                 </div>
                 <div class="col-md-4 mb-3">
                   <label for="validationDefault02">Trình độ</label>
