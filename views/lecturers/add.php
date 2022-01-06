@@ -7,7 +7,7 @@
 <div style="color: red">
     <?php echo $error; ?>
 </div>
-<div class='container'>
+<div class='container'  style="margin-top:100px">
     <div class='row'>
         <div class='col'>
             <form  method="post" action="">
